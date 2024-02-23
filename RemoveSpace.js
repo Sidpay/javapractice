@@ -1,2 +1,3 @@
-const  text = '  Hello World ';
-console.log(text.trim());
+const stringWithSpaces = "Welcome to coders world";
+const stringWithoutSpaces = stringWithSpaces.split(' ').join('');
+console.log(stringWithoutSpaces);
